@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetodyNumeryczne", "MetodyNumeryczne\MetodyNumeryczne.csproj", "{05A80093-4DF2-4739-BC59-B723DE03757B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A3BE8E2A-1D54-4C81-8846-434F73AF2502}"
+	ProjectSection(SolutionItems) = preProject
+		MetodyNumeryczne\LagrangeTest.cs = MetodyNumeryczne\LagrangeTest.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05A80093-4DF2-4739-BC59-B723DE03757B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05A80093-4DF2-4739-BC59-B723DE03757B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05A80093-4DF2-4739-BC59-B723DE03757B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05A80093-4DF2-4739-BC59-B723DE03757B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B72A283-9BE2-4B0C-9F59-67FB7D435997}
+	EndGlobalSection
+EndGlobal
