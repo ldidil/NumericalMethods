@@ -6,8 +6,17 @@ namespace MetodyNumeryczne
     {
         static void Main(string[] args)
         {
-            var l = new Lagrange(4, "../../../values.txt");
-            Console.WriteLine(l.Calculate());;
+            /*lab1
+            var l = new Lagrange(4, "../../../LAB1/values.txt");
+            Console.WriteLine(l.Calculate());
+            */
+
+            //lab2
+            Console.WriteLine("Value: ");
+            var value = float.Parse(Console.ReadLine());
+            var n = new Newton(value, "../../../LAB2/values.txt");
+            Console.WriteLine(n.Calculate()); 
+
         }
     }
 }
