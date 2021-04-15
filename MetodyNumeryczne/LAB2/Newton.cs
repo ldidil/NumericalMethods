@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
 public class Newton
 {
@@ -11,21 +10,21 @@ public class Newton
     float[] y = new float[1];
 
 
-    public Newton()
-    {
-    }
+    //public Newton()
+    //{
+    //    lookingForValue = l;
+    //    string[] lines = System.IO.File.ReadAllLines(@filePath);
+    //}
 
-    public Newton(float l, string filePath)
-    {
-        lookingForValue = l;
-        string[] lines = System.IO.File.ReadAllLines(@filePath);
-        PrepareData(lines);
-        if (0 < x[0] || l > x[valueCounter - 1])
-        {
-            Console.WriteLine("Interpolation Error: Argument outside bounds");
-            System.Environment.Exit(0);
-        }
-    }
+    //public Newton(float l, string filePath)
+    //{
+    //    PrepareData(lines);
+    //    if (0 < x[0] || l > x[valueCounter - 1])
+    //    {
+    //        Console.WriteLine("Interpolation Error: Argument outside bounds");
+    //        System.Environment.Exit(0);
+    //    }
+    //}
     private float NewtonInterpolation(int row, int i)
     {
         if (row == 0) return 1;
