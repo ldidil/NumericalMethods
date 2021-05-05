@@ -38,7 +38,8 @@ namespace MetodyNumeryczne
             //Console.WriteLine("Dla metody trapezow: " + v.methodTrapezoidal());
 
             //lab3
-            BisectionMethod.Calculate(1,2);
+            BisectionMethod.Calculate(-2,1);
+            NewtonRaphsonMethod.Calculate(-2, 1);
 
         }
     }

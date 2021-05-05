@@ -9,7 +9,7 @@ namespace MetodyNumeryczne.LAB5
 
         private static double Func(double x)
         {
-            return (x * x * x + x * x - 3 * x - 3);
+            return -(x * x )+ 16*x +17;
         }
 
 
