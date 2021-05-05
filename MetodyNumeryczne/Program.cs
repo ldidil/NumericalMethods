@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MetodyNumeryczne.LAB5;
+using System;
 
 namespace MetodyNumeryczne
 {
@@ -17,26 +18,27 @@ namespace MetodyNumeryczne
             //var n = new Newton(value, "../../../LAB2/values.txt");
             //Console.WriteLine(n.Calculate()); 
 
+            ////lab3
+
+            //Console.WriteLine("Podaj poczatek przedzialu calkowania");
+            //float xp = float.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Podaj koniec przedzialu calkowania");
+            //float xk = float.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Podaj dokladnosc calkowania");
+            // int n = int.Parse(Console.ReadLine());
+
+            //var v = new IntegralMethod(xp, xk, n);
+
+            //Console.WriteLine("Wartosc calki wynosi w przyblizeniu: ");
+
+            //Console.WriteLine("Dla metody prostokatow: " + v.methodRectangle());
+
+            //Console.WriteLine("Dla metody trapezow: " + v.methodTrapezoidal());
+
             //lab3
-            float xp, xk;
-            int n;
-
-            Console.WriteLine("Podaj poczatek przedzialu calkowania");
-            xp = float.Parse(Console.ReadLine());
-
-            Console.WriteLine("Podaj koniec przedzialu calkowania");
-            xk = float.Parse(Console.ReadLine());
-
-            Console.WriteLine("Podaj dokladnosc calkowania");
-            n = int.Parse(Console.ReadLine());
-
-            var v = new IntegralMethod(xp, xk, n);
-
-            Console.WriteLine("Wartosc calki wynosi w przyblizeniu: ");
-
-            Console.WriteLine("Dla metody prostokatow: " + v.methodRectangle());
-
-            Console.WriteLine("Dla metody trapezow: " + v.methodTrapezoidal());
+            BisectionMethod.Calculate(1,2);
 
         }
     }
