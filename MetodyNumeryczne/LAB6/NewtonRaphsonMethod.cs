@@ -7,19 +7,21 @@ namespace MetodyNumeryczne.LAB5
         private const double EPS = 1e-14;
         private static double Func(double x)
         {
-            return x * x * x + x * x - 3 * x - 3;
+            return x * x - 2;
         }
         private static double DFunc(double x)
         {
-            return 3 * x * x + 2 * x - 3;
+            return 2*x;
         }
 
 
         public static void Calculate(double x0, int n)
         {
+            double f0=0;
+
             while (--n > 0)
             {
-                var f0 = Func(x0);         // Obliczanie wartości funkcji w punkcie x0 
+              f0 = Func(x0);         // Obliczanie wartości funkcji w punkcie x0 
 
                 if (Math.Abs(f0) < EPS)
                 {
@@ -38,7 +40,6 @@ namespace MetodyNumeryczne.LAB5
                 }
             }
             Console.WriteLine("Value x0 = " + x0);
-            Console.WriteLine("Value f(x0) = " + Func(x0));
         }
 
     }

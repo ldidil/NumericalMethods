@@ -1,4 +1,5 @@
 ﻿using MetodyNumeryczne.LAB5;
+using MetodyNumeryczne.LAB7;
 using System;
 
 namespace MetodyNumeryczne
@@ -37,9 +38,12 @@ namespace MetodyNumeryczne
 
             //Console.WriteLine("Dla metody trapezow: " + v.methodTrapezoidal());
 
-            //lab3
-            BisectionMethod.Calculate(-2,1);
-            NewtonRaphsonMethod.Calculate(-2, 1);
+            //lab5
+            // BisectionMethod.Calculate(-2,1);
+            //NewtonRaphsonMethod.Calculate(1, 64);
+
+            //lab6
+            Console.WriteLine("Figura field : "+Gausse.Calculate(new double[] { 1, 1,1,1}, new double[] { 1, 1, 1, 1 }));
 
         }
     }
