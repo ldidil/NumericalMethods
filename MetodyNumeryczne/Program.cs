@@ -1,5 +1,6 @@
 ﻿using MetodyNumeryczne.LAB5;
 using MetodyNumeryczne.LAB7;
+using MetodyNumeryczne.lab8;
 using System;
 
 namespace MetodyNumeryczne
@@ -43,7 +44,10 @@ namespace MetodyNumeryczne
             //NewtonRaphsonMethod.Calculate(1, 64);
 
             //lab6
-            Console.WriteLine("Figura field : "+Gausse.Calculate(new double[] { 1, 1,1,1}, new double[] { 1, 1, 1, 1 }));
+            //Console.WriteLine("Figura field : "+ Gausse.Calculate());
+
+            //lab7
+            Console.WriteLine("Figura field : " + GoldenSectionMethod.Calculate(1,3,4)) ;
 
         }
     }
